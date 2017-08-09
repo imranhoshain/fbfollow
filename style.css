@@ -1,0 +1,193 @@
+/*******************************************************************************
+        TABLE OF CONTENTS
+******************************************************************************
+                0.0=> Browser Reset Code
+
+                1.=> Theme color  css
+
+                2.=> Header top area css
+
+                3.=> Header bottom area  css
+
+                4.=> Slider area  css
+
+                5.=> Course area  css
+
+                6.=> About area  css
+
+                7.=> Faq area  css
+
+                8.=> Counter area  css
+
+                9.=> Trainer area  css
+
+                10.=> Quote area  css
+
+                11.=> Member area  css
+
+                12.=> Client area  css
+
+                13.=> Testi area css
+
+                14.=> News area  css
+
+                15.=> Footer area css
+
+                16.=> Footer copyright area  css
+
+                17.=> Responsive menu wrap  css
+
+                18.=> All page area  css
+
+                19.=> Register area  css
+
+                20.=> Portfolio area  css
+
+                21.=> Error area  css
+
+                22.=> Blog area  css
+
+                23.=> Error area css
+
+                24.=> Comments area  css
+
+                25.=> Contact area  css
+
+
+***************************************************************************
+        TABLE OF CONTENTS
+***************************************************************************/
+
+
+/*---------------------------------------------------
+            Browser Reset Code
+---------------------------------------------------*/
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 10px;
+    font-weight: 700;
+    color: #333;
+}
+
+p {
+    margin: 0 0 10px
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666666;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+a {
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+a:hover,
+a:focus {
+    outline: medium none;
+    text-decoration: none;
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+
+/*---------------------------*/
+
+
+.parallax-window {
+    height: 700px;
+    background: transparent;
+}
+.header-top-left {
+    float: left;
+}
+.header-top-right {
+    float: right;
+}
+.header-top {
+    background: #086d76 none repeat scroll 0 0;
+    color: #fff;
+    min-height: 55px;
+    padding-top: 15px;
+}
+nav ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+}
+nav ul li a {
+    background: #eee none repeat scroll 0 0;
+    color: #1794d3;
+    font-weight: 700;
+    margin: 5px;
+    padding: 7px 25px;
+}
+
+
+.ques-ans h4, p {
+    color: #fff;
+}
+
+
+/*----------------------------*/
+
+.its-content {
+    background: #000 none repeat scroll 0 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.its-content h1{color: #fff;}
+
+
+/*---------------------------------*/
+
+
+.form-area {
+    margin-left: 70px;
+    margin-top: 15px;
+}
